@@ -1,0 +1,93 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #db9b0f;
+    width: 80%;
+    margin: 3rem auto;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+nav .nav-lists{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;     
+}
+
+nav .nav-lists .logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1a6824;
+}
+
+nav .nav-lists .contact-us{
+    font-size: 1.25rem;
+    color: #472416;
+    font-weight: 600;
+    margin-right: 3rem;
+}
+
+main{
+    width: 80%;
+    margin: 8rem auto 0 auto;
+}
+
+.hero-section{
+    display: flex;
+    column-gap: 5rem;
+  
+    align-items: center;
+}
+
+.hero-section .bank-logo i{
+    font-size: 15rem;
+}
+
+.hero-section .welcome-text{
+    font-family:fantasy;
+    font-size: 1.55rem;
+    font-weight: 200;
+    color: rgb(75, 23, 16);
+}
+.hero-section .welcome-text .line{
+    font-family:fantasy;
+    font-size: 2.55rem;
+    font-weight: 200;
+    color: rgb(34, 61, 133);
+}
+
+.hero-section .transaction-btn {
+    background-color: #e9ecd7;
+    color: rgb(17, 13, 13);
+    padding: 0.55rem 0.8rem ;
+    font-size: 1.05rem;
+    border: 2px 2px solid #1a322a;
+    border-radius: 6px;
+}
+
+.hero-section .transaction-btn:hover{
+    background-color: #e78c41;   
+}
+
+.footer{
+    text-align: center;
+    margin-top: 13rem;
+}
+
+.footer{
+    font-size: 1.25rem;
+}
+
